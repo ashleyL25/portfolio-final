@@ -1,0 +1,47 @@
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.collapsible:hover {
+  background-color: #555;
+}
+
+.active .content-collapse {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+#myDIV {
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  background-color: rgba (222, 198, 153, 0.25);
+  margin-top: 20px;
+}
+
+button .collapsible:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #A2BACC;
+    position: absolute;
+    bottom: 6px;
+    left: -2px;
+    z-index: -1;
+    transition: bottom .3s ease;
+}
+
+button .collapsible:hover::after {
+  bottom: 0;
+}
