@@ -277,6 +277,35 @@ body a:hover {
     /* fixed width only please - you can use the "subMenusMinWidth"/"subMenusMaxWidth" script options to override this if you like */
 }
 
+.smaller {
+    width: 50% !important;
+    height: 50% !important;
+}
+
+.smallers {
+    width: 48%;
+    float: left;
+}
+
+/* @media only screen and (max-width:1900px){
+    .justified-gallery .coco-gallery-item {
+        width: 50% !important;
+    }
+}
+
+/*.justified-gallery .coco-gallery-item {
+  width: 50%;
+}
+
+.justified-gallery .coco-gallery-item {
+  margin: 0 0 3;
+  float: left;
+}
+
+.justified-gallery {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+} */
 .main-menu.sm-clean {
     background-color: transparent;
     display: inline-block;
@@ -284,6 +313,10 @@ body a:hover {
 
 .sm-clean a {
     position: relative;
+}
+
+.space {
+  margin: 2rem !important;
 }
 
 .sm-clean a,
@@ -1262,7 +1295,7 @@ li.social-footer a {
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
 }
 
 li.social-footer a:first-child {
@@ -1385,7 +1418,7 @@ li.social-footer a:first-child {
     }
 
     .hunkey {
-      padding-left: 0rem !important;
+        padding-left: 0rem !important;
     }
 
     .underline:after {
@@ -1542,7 +1575,7 @@ li.social-footer a:first-child {
     }
 
     .hunkey {
-      padding-left: 5rem !important;
+        padding-left: 5rem !important;
     }
 
     .single .nav-previous a,
@@ -1596,7 +1629,7 @@ li.social-footer a:first-child {
 }
 
 .hunkey {
-  padding-left: 12rem !important;
+    padding-left: 12rem !important;
 }
 
 @media screen and (max-width: 630px) {
